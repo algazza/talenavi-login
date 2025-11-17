@@ -14,7 +14,8 @@ const { value: password } = useField("password");
 
 const onSubmit = handleSubmit(values => {
   localStorage.setItem("email", values.email);
-  localStorage.setItem("timestamp", `${new Date().toLocaleString()}`);
+  localStorage.setItem("loginAt", `${new Date().toLocaleString()}`);
+  alert("Login Berhasil")
 })
 </script>
 
