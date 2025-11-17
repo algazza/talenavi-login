@@ -27,7 +27,7 @@ import background from "/background.png";
               class="w-full h-full object-center object-cover"
             />
           </div>
-          <h2 class="text-2xl">Selamat Datang Kembali!</h2>
+          <h2 class="text-2xl text-shadow-black text-shadow-lg/20">Selamat Datang Kembali!</h2>
         </div>
 
         <form class="grid gap-6">
