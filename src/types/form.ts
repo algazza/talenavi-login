@@ -14,5 +14,3 @@ export const FormSchema = z.object({
     })
     .min(6, "Password minimal 6 karakter"),
 });
-
-export type formType = z.infer<typeof FormSchema>;
