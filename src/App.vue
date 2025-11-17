@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import logo from "/icon.png";
 import background from "/background.png";
+import Form from "./components/Form.vue";
 </script>
 
 <template>
@@ -30,38 +31,7 @@ import background from "/background.png";
           <h2 class="text-2xl text-shadow-black text-shadow-lg/20">Selamat Datang Kembali!</h2>
         </div>
 
-        <form class="grid gap-6">
-          <div class="grid gap-2">
-            <label class="text-xs">Email</label>
-            <input
-              name="email"
-              class="bg-white px-5 py-2 rounded-xl text-black border border-muted focus:border-muted"
-              type="email"
-              placeholder="Enter your email"
-            />
-          </div>
-
-          <div class="grid gap-2">
-            <label class="text-xs">Password</label>
-            <input
-              class="bg-white px-5 py-2 rounded-xl text-black border border-muted focus-visible:border-none"
-              type="password"
-              placeholder="Enter your password"
-            />
-          </div>
-
-          <div class="flex flex-col gap-2">
-            <div class="w-full text-right h-fit">
-              <a href="#" class="underline">Lupa Password?</a>
-            </div>
-            <button
-              type="submit"
-              class="w-full py-2 bg-primary rounded-lg text-center text-white"
-            >
-              Sign In
-            </button>
-          </div>
-        </form>
+        <Form/>
 
         <p class="text-accent">
           Belum punya akun?
